@@ -1,0 +1,170 @@
+{
+    "snr_levels": [
+        -10,
+        -6,
+        -2,
+        2,
+        6,
+        10,
+        14,
+        18,
+        20
+    ],
+    "accuracies": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.125
+    ],
+    "overall_accuracy": 0.125,
+    "confusion_matrix": [
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            225,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "classification_report": {
+        "BPSK": {
+            "precision": 0.125,
+            "recall": 1.0,
+            "f1-score": 0.2222222222222222,
+            "support": 225.0
+        },
+        "QPSK": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "8PSK": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "16QAM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "64QAM": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "BFSK": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "CPFSK": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "PAM4": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 225.0
+        },
+        "accuracy": 0.125,
+        "macro avg": {
+            "precision": 0.015625,
+            "recall": 0.125,
+            "f1-score": 0.027777777777777776,
+            "support": 1800.0
+        },
+        "weighted avg": {
+            "precision": 0.015625,
+            "recall": 0.125,
+            "f1-score": 0.027777777777777776,
+            "support": 1800.0
+        }
+    }
+}

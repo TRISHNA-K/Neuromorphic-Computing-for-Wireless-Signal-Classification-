@@ -1,0 +1,57 @@
+{
+    "classification_performance": {
+        "snr_levels": [
+            -10,
+            -6,
+            -2,
+            2,
+            6,
+            10,
+            14,
+            18,
+            20
+        ],
+        "ann_accuracy_by_snr": [
+            0.145,
+            0.155,
+            0.285,
+            0.405,
+            0.585,
+            0.595,
+            0.645,
+            0.665,
+            0.625
+        ],
+        "snn_accuracy_by_snr": [
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125
+        ],
+        "ann_overall_accuracy": 0.45611111111111113,
+        "snn_overall_accuracy": 0.125
+    },
+    "computational_activity_and_energy": {
+        "ann_macs_per_sample": 1639424.0,
+        "snn_sops_per_sample": 16864.8,
+        "snn_spike_sparsity_percent": 99.41703216374269,
+        "snn_activity_factor": 0.0058296783625731,
+        "ann_energy_proxy_pj": 7541350.399999999,
+        "snn_energy_proxy_pj": 15178.32,
+        "energy_efficiency_gain_factor": 496.85013888230054,
+        "energy_saved_percent": 99.79873206793309
+    },
+    "latency_and_throughput": {
+        "ann_latency_ms": 0.9802700090222061,
+        "snn_latency_ms": 115.13388800434768,
+        "ann_throughput_samples_per_sec": 1020.1270984485939,
+        "snn_throughput_samples_per_sec": 8.685540090179513,
+        "snn_early_decision_avg_steps": 128.0,
+        "snn_temporal_speedup_factor": 1.0
+    }
+}

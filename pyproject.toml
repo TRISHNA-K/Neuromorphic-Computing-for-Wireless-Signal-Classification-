@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuromorphic-wireless-snn"
+version = "1.0.0"
+authors = [
+  { name="TRISHNA-K", email="trishnakuruppath@gmail.com" },
+]
+description = "Neuromorphic Computing for Wireless Signal Classification using Spiking Neural Networks (snnTorch)"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "snntorch>=1.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "pandas>=2.0.0",
+    "pyyaml>=6.0",
+    "tqdm>=4.65.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.3.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
